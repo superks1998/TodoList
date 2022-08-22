@@ -1,0 +1,46 @@
+.form {
+    margin: 50px 80px;
+
+    &-wrap {
+        margin-bottom: 15px;
+    }
+
+    label {
+        span {
+            width: 50px;
+            display: inline-block;
+        }
+    }
+
+    &-input{
+        width: 300px;
+        height: 30px;
+        // outline: deepskyblue;
+    }
+
+    &-input:focus {
+        border-color: deepskyblue;
+        // border-radius: 2px;
+    }
+
+    p {
+        font-size: 12px;
+        color: red;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    p.success-message {
+        color: green;
+    }
+
+    &-submit {
+        color: white;
+        font-size: 16px;
+        border: none;
+        width: 80px;
+        height: 30px;
+        background-color: deepskyblue;
+        letter-spacing: 1px;
+    }
+}
